@@ -13,4 +13,9 @@ public class DemoController {
     public String getMessage(){
         return "hello docker String....!";
     }
+
+    @GetMapping("/getMessage")
+    public String setMessage(){
+        return "hello manoj";
+    }
 }
